@@ -1,14 +1,14 @@
 div{
-  background-color: rgb(162, 127, 243);
+  background-color: rgb(69, 74, 97);
   color: rgb(255,255,255);
   padding: 40px;
-  font-family: 고딕;
+  font-family: '나눔고딕';
   text-align: center;
 }
 
 h1{
   color:white;
-  background-color: #2efe2e;
+  background-color: #4f97ad;
   padding: 10px;
-  font-family: 궁서;
+  font-family: '나눔고딕';
 }
