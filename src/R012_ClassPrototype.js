@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-class R010_Variable extends Component{
+class R012_ClassPrototype extends Component{
    constructor(props){
        super(props);
        this.state = {};
@@ -44,4 +44,4 @@ class R010_Variable extends Component{
        )
    }
 }
-export default R010_Variable;
+export default R012_ClassPrototype;

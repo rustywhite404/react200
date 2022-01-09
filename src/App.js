@@ -9,7 +9,11 @@ import './App.css';
 //import Es6 from './R009_Es6';
 //import Variable from './R010_Variable';
 //import SpreadOperator from './R011_SpreadOperator';
-import ClassPrototype from './R012_ClassPrototype';
+//import ClassPrototype from './R012_ClassPrototype';
+//import ArrowFunction from './R013_ArrowFunction'
+//import ForEach from './R014_ForEach'
+//import Map from './R015_Map'
+import Jquery from './R016_Jquery'
 
 function App(){
     return (
@@ -24,9 +28,14 @@ function App(){
         <LifecycleEx5 prop_value = 'FromApp.js' />  
         <Es6 /> 
         <Variable /> 
-        <SpreadOperator /> */}
+        <SpreadOperator /> 
         <ClassPrototype />
-
+        <ArrowFunction />
+        <ForEach />
+        <Map />
+        */} 
+        <Jquery />
+        
       </div>
     );
 
