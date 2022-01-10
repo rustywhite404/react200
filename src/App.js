@@ -9,13 +9,20 @@ import './App.css';
 //import Es6 from './R009_Es6';
 //import Variable from './R010_Variable';
 //import SpreadOperator from './R011_SpreadOperator';
-import ClassPrototype from './R012_ClassPrototype';
+//import ClassPrototype from './R012_ClassPrototype';
+//import ArrowFunction from './R013_ArrowFunction'
+//import ForEach from './R014_ForEach'
+//import Map from './R015_Map'
+//import Jquery from './R016_Jquery'
+//import Props from './R017_Props'
+import PropsDatatype from './R018_PropsDatatype'
 
 function App(){
     return (
       <div>
         <h1>START REACT 200</h1>
-        <p>HTML 적용하기</p>
+        <p>CSS 적용하기</p>
+        
         {/* <ImportantComponent></ImportantComponent>
         <LifecycleEx></LifecycleEx>
         <LifecycleEx2></LifecycleEx2>
@@ -24,9 +31,21 @@ function App(){
         <LifecycleEx5 prop_value = 'FromApp.js' />  
         <Es6 /> 
         <Variable /> 
-        <SpreadOperator /> */}
+        <SpreadOperator /> 
         <ClassPrototype />
-
+        <ArrowFunction />
+        <ForEach />
+        <Map />
+        <Jquery />
+        <Props props_val="THIS IS PROPS" />
+        */} 
+        <PropsDatatype 
+        String ="react" 
+        Number ={200}
+        Boolean={1==1}
+        Array = {[0,1,8]}
+        ObjectJson = {{react:"리액트", twohundred:"200"}}
+        Function = {console.log("FunctionProps: function!")}/> 
       </div>
     );
 
