@@ -16,6 +16,8 @@ import './App.css';
 //import Jquery from './R016_Jquery'
 //import Props from './R017_Props'
 import PropsDatatype from './R018_PropsDatatype'
+//import PropsBoolean from './R019_PropsBoolean'
+//import PropsObjVal from './R020_PropsObjVal'
 
 function App(){
     return (
@@ -37,15 +39,20 @@ function App(){
         <ForEach />
         <Map />
         <Jquery />
-        <Props props_val="THIS IS PROPS" />
+        <Props props_val="THIS IS PROPS" />        
+        <PropsObjVal ObjectJson = {{react:"리액트",twohundred:"200"}}/>
+        <PropsBoolean BooleanTrueFalse = {false}/> false값을 넣은 후 props에 담아 하위 컴포넌트로 전달 
+        <PropsBoolean BooleanTrueFalse /> 변수만 선언하고 할당 없이 props에 담아 전달 
         */} 
-        <PropsDatatype 
+         <PropsDatatype 
         String ="react" 
         Number ={200}
         Boolean={1==1}
         Array = {[0,1,8]}
         ObjectJson = {{react:"리액트", twohundred:"200"}}
-        Function = {console.log("FunctionProps: function!")}/> 
+        Function = {console.log("FunctionProps: function!")}/>         
+        
+
       </div>
     );
 

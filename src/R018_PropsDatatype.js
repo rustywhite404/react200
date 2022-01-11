@@ -18,4 +18,13 @@ class R018_PropsDatatype extends Component{
        )
    }
 }
+
+R018_PropsDatatype.protoTypes = {
+    String: datatype.number,
+    Number: datatype.number,
+    Boolean: datatype.bool,
+    Array: datatype.array,
+    ObjectJson: datatype.object,
+    Function: datatype.func
+}
 export default R018_PropsDatatype;
