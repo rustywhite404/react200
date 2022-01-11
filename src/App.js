@@ -16,8 +16,11 @@ import './App.css';
 //import Jquery from './R016_Jquery'
 //import Props from './R017_Props'
 import PropsDatatype from './R018_PropsDatatype'
+<<<<<<< HEAD
 //import PropsBoolean from './R019_PropsBoolean'
 //import PropsObjVal from './R020_PropsObjVal'
+=======
+>>>>>>> cc6f4869ef0caa56211e5a10062687fca1c3ae6f
 
 function App(){
     return (
@@ -50,9 +53,13 @@ function App(){
         Boolean={1==1}
         Array = {[0,1,8]}
         ObjectJson = {{react:"리액트", twohundred:"200"}}
+<<<<<<< HEAD
         Function = {console.log("FunctionProps: function!")}/>         
         
 
+=======
+        Function = {console.log("FunctionProps: function!")}/> 
+>>>>>>> cc6f4869ef0caa56211e5a10062687fca1c3ae6f
       </div>
     );
 
