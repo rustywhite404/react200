@@ -15,12 +15,11 @@ import './App.css';
 //import Map from './R015_Map'
 //import Jquery from './R016_Jquery'
 //import Props from './R017_Props'
-import PropsDatatype from './R018_PropsDatatype'
-<<<<<<< HEAD
+//import PropsDatatype from './R018_PropsDatatype'
 //import PropsBoolean from './R019_PropsBoolean'
 //import PropsObjVal from './R020_PropsObjVal'
-=======
->>>>>>> cc6f4869ef0caa56211e5a10062687fca1c3ae6f
+//import PropsRequired from './R021_PropsRequired'
+import PropsDefault from './R022_PropsDefault'
 
 function App(){
     return (
@@ -45,21 +44,18 @@ function App(){
         <Props props_val="THIS IS PROPS" />        
         <PropsObjVal ObjectJson = {{react:"리액트",twohundred:"200"}}/>
         <PropsBoolean BooleanTrueFalse = {false}/> false값을 넣은 후 props에 담아 하위 컴포넌트로 전달 
-        <PropsBoolean BooleanTrueFalse /> 변수만 선언하고 할당 없이 props에 담아 전달 
-        */} 
+        <PropsBoolean BooleanTrueFalse /> 변수만 선언하고 할당 없이 props에 담아 전달         
          <PropsDatatype 
         String ="react" 
         Number ={200}
         Boolean={1==1}
         Array = {[0,1,8]}
         ObjectJson = {{react:"리액트", twohundred:"200"}}
-<<<<<<< HEAD
-        Function = {console.log("FunctionProps: function!")}/>         
-        
+        Function = {console.log("FunctionProps: function!")}/>      
+        <PropsRequired ReactNumber = {200} />
+        */} 
+        <PropsDefault ReactNumber = {200} />
 
-=======
-        Function = {console.log("FunctionProps: function!")}/> 
->>>>>>> cc6f4869ef0caa56211e5a10062687fca1c3ae6f
       </div>
     );
 
